@@ -59,29 +59,33 @@ Main components
 }
 
 #section1, #section2, #section3, #section4{
-  background-image:url("../images/landing-sec-bg.png");
+  /*background-image:url("../images/landing-sec-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 #section1{
-  background-image:url("../images/landing-sec-bg.png");
+  /*background-image:url("../images/landing-sec-bg.png");*/
+  background-color: black;
 }
 
 #section2{
-  background-image:url("../images/about-sec-bg.png");
+  background-color:white;
+  min-height: 70%;
 }
 
 #section3{
-  background-image:url("../images/apply-sec-bg.png");
+  min-height: 60%;
+  background-color:#f2f2f2;
 }
 
 #section4{
   background-image:url("../images/team-bg.png");
 }
 
-#section4{
-  background-color:white;
+#section5{
+  min-height: 40%;
+  background-color: #2e2e2e;
 }
 
 .cd-section:nth-of-type(odd) {
@@ -96,61 +100,76 @@ Main components
 .cd-section:nth-of-type(even) p {
   color: black;
 }
-.inner{
-  position: absolute;
-  /*left: 35%;*/
-  margin-left: 70px;
-  top: 30%;
-  bottom: auto;
-  right: auto;
-  /*-webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);*/
-  width: 90%;
-  max-width: 768px;
+
+/* Navigation Bar Color */
+.nav-left > li > a{
+  color:white;
+}
+
+/* End Navigation Bar Color */
+
+/* Padding */
+.padding-bottom{
+  padding-bottom:20px;
+}
+
+.padding-top{
+  padding-top:20px;
+}
+
+.padding-left{
+  padding-left:50px;
+}
+
+.padding-right{
+  padding-right: 4px;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.align-left{
   text-align: left;
 }
 
-.inner_sec3{
+.align-right{
+  text-align: right;
+}
+
+.margin-left{
+  margin-left: 30px;
+}
+
+.margin{
+  margin:10px;
+}
+
+/* End Padding */
+
+.inner_sec1{
+  transform: translateY(120%);
+  color:white;
+}
+
+.inner_sec2{
   margin-left:50px;
-  padding-top: 20%;
-  /*-webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);*/
+  padding-top: 10%;
   width: 100%;
   max-width: 90%;
   text-align: left;
 }
 
-.inner_sec1{
-  position: absolute;
-  /*left: 35%;*/
-  margin-left: 70px;
-  top: 40%;
-  bottom: auto;
-  right: auto;
-  /*-webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);*/
+.inner_sec3{
+  margin-left:50px;
+  padding-top: 10%;
   width: 100%;
-  max-width: 1000px;
+  max-width: 90%;
   text-align: left;
 }
 
 .inner_contact{
-  margin:0 auto;
-  padding-top: 20%;
-  bottom: auto;
-  right: auto;
-  width: 90s%;
-  max-width: 768px;
-  text-align: left;
+  transform: translateY(60%);
 }
 
 .sec4{
@@ -164,6 +183,17 @@ Main components
 .sec4 ul > li{
   font-size: 18px;
 }
+
+/*Footer*/
+.footer-bottom{
+  position:absolute;
+  background-color:#1d1d1d;
+  width:100%;
+  margin-top: 30px;
+  min-height:50px;
+  bottom:0;
+}
+/*End Footer*/
 
 @media only screen and (max-width: 1200px) {
   .sec4, .inner{
@@ -183,25 +213,24 @@ Main components
 }
 
 .button {
-    width: 250px;
-    height: 60px;
+    width: 170px;
+    height: 40px;
     background-color: #ff2b06;
-    border-radius: 10px;
+    border-radius: 2px;
     color: #f2f2f2;
     font-size: 20px;
     text-align: center;
-    line-height: 60px;
+    line-height: 40px;
     display: block;
     text-decoration: none;
     font-weight: 300;
-    margin-left: 22%;
 }
 
 .apply_button{
   width: 180px;
   height: 45px;
   border:solid #ff2b06;
-  border-radius: 8px;
+  border-radius: 2px;
   color: #ff2b06;
   font-size: 20px;
   text-align: center;
@@ -209,7 +238,6 @@ Main components
   display: block;
   text-decoration: none;
   font-weight: 300;
-  margin-left:30px;
 }
 
 .top-padding{
@@ -225,12 +253,13 @@ Main components
 
 .nav-left{
   float:right;
-  margin-right: 20px;
+  margin-right: 10%;
 }
 
 .text{
-  font-size:20px;
+  font-size:15px;
   line-height: 1.5;
+  text-align: left;
   font-weight: lighter;
 }
 
@@ -242,19 +271,22 @@ Main components
   }
 
 .header_lg{
-  font-size:80px;
-  font-weight: bolder;
-  color:gray;
+  font-size:10vh;
+  color:white;
 }
 
 .header{
-  font-size:50px;
+  font-size:40px;
   font-weight: bold;
 }
 
 .subtitle{
-  font-size:30px;
-  padding-top:10px;
+  font-size:25px;
+  padding-top:30px;
+}
+
+.subtitle_sm{
+  font-size:4vh;
 }
 
 @media only screen and (max-width:756px){
@@ -316,18 +348,6 @@ Main components
   color:white;
     background-color: #ed2400;
 }
-
-/*@media only screen and (min-width: 768px) {
-  .cd-section h1 {
-    font-size: 30px;
-    font-size: 1.875rem;
-  }
-  .cd-section p {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 1.2;
-  }
-}*/
 
 .full_story{
   font-size: 3.0vw;
