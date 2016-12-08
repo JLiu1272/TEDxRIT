@@ -54,4 +54,15 @@ jQuery(document).ready(function($){
         	600
         );
 	}
+
 });
+
+
+function mouseOver(x){
+    document.getElementById(x).style.visibility = "visible";
+}
+
+function mouseOut(x){
+    document.getElementById(x).style.visibility = "hidden";
+}
+
