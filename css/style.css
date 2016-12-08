@@ -246,6 +246,9 @@ body {
     opacity: 0;
     background-color: #2e2e2e;
     transition: all .2s;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .img:hover .hoverstate {
