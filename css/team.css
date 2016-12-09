@@ -134,6 +134,10 @@ body {
     background-image: url(../images/finance-committee.png);
 }
 
+.six {
+    background-image: url(../images/last-image.JPG);
+}
+
 .content-container {
     width: 80%;
     display: flex;
