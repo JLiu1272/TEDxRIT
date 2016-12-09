@@ -1,132 +1,146 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Bootstrap Installation -->
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
-  
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<link rel="stylesheet" href="css/footer.css"> <!-- Resource style -->
+		<link rel='shortcut icon' type='images/favicon' href="images/favicon.ico" />
+		<title>TEDxRIT | Home</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(function() {
+			    $('a[href*=#]:not([href=#])').click(function() {
+			        var target = $(this.hash);
+			        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+			        if (target.length) {
+			            $('html,body').animate({
+			              scrollTop: target.offset().top
+			            }, 1000);
+			            return false;
+			        }
+			    });
+			});
+		</script>
+	</head>
 
-	<link rel='shortcut icon' type='images/favicon' href="images/favicon.ico" />
-	<title>TEDxRIT</title>
-</head>
+	<body>
+		<!--The first section of the Home page. Houses the main site navigation.-->
+		<div class="hero">
+			<div class="overlay"></div>
+			<div class="hero-content">
+				<div class="nav">
+					<a href="index.html" class="logo"></a>
+					<div class="links">
+						<a href="about.html" class="link">ABOUT</a>
+						<a href="#sectionApp" class="link">APPLY</a>
+						<a href="sponsor.html" class="link">SPONSOR</a>
+						<a href="team.html" class="link">TEAM</a>
+						<a href="#sectionCont" class="link">CONTACT</a>
+					</div>
+				</div>
+				<div class="hero-center">
+					<div class="hero-title">Turning Point</div>
+					<div class="subtitle">A TEDxRIT Experience</div>
+					<a href="#sectionDown" class="button">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
 
-<body>
-<div class="hero">
-            <div class="overlay"></div>
-            <div class="hero-content">
-                <div class="nav">
-                    <a href="index.html" class="logo"></a>
-                    <div class="links">
-                        <a href="about.html" class="link">ABOUT</a>
-                        <a href="#" class="link">APPLY</a>
-                        <a href="sponsor.html" class="link">SPONSOR</a>
-                        <a href="team.html" class="link">TEAM</a>
-                        <a href="#" class="link">CONTACT</a>
-                    </div>
-                </div>
-                <div class="hero-center">
-                    <div class="hero-title">Turning Point</div>
-                    <div class="subtitle">A TEDxRIT Experience</div>
-                    <a href="#" class="button">LEARN MORE</a>
-                </div>
-            </div>
-        </div>
-        
-        <div class="page-wrapper">
-            <div class="about-container">
-                <div class="about-left">
-                    <div class="date">2.4.17</div>
-                    <div class="title right-align">Ingle Auditorium</div>
-                </div>
-                <div class="about-right">
-                    <div class="text">TEDxRIT started as an idea. It started as 7 people, wanting to make a difference and start a conversation on campus.<br><br>Fast forward to 7 months later, and we are now planning TEDxRIT to happen on February 4, 2017 with a group of 30 motivated students.</div>
-                    <a href="about.html" class="button main">FULL STORY</a>
-                </div>
-            </div>
-        </div>
-        <div class="gray">
-            <div class="page-wrapper">
-                <div class="app-container">
-                    <div class="app-left">
-                        <div class="title">Become A Speaker</div>
-                        <div class="text">Apply to be a speaker for TEDxRIT on Saturday, February 4th, 2017. Anyone is eligible to apply, including students, faculty, community members, and anyone else with an idea worth sharing. </div>
-                        <a href="images/Speaker_Application.docx" class="button main">APPLY</a>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="app-right">
-                        <div class="title">Attend The Event</div>
-                        <div class="text">Apply to attend the TEDxRIT event! Only 100 applicants will be accepted, so be sure to fill out your application before it closes on January 9th.</div>
-                        <div class="button main">APPLY</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="page-wrapper">
-            <div class="title space">We Value Teamwork</div>
-            <div class="grid">
-                <div class="row">
-                    <div class="left">
-                        <div class="img one">
-                            <a href="team.html" class="hoverstate">TEDxRIT eBoard</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="img two">
-                            <a href="team.html" class="hoverstate">Curation Committee</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="left">
-                        <div class="img three">
-                            <a href="team.html" class="hoverstate">Marketing Committee</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="img four">
-                            <a href="team.html" class="hoverstate">Events Management Committee</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="left">
-                        <div class="img five">
-                            <a href="team.html" class="hoverstate">Events Production Committee</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <div class="img six">
-                            <a href="team.html" class="hoverstate">Sponsorship and Finance Committee</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		<div class="footer">
-            <div class="top">
-                <div class="footer-title">Questions? Contact Us</div>
-                <a href="mailto:theodorejohnston@tedxrit.com" class="footer-button">EMAIL</a>
-            </div>
-            <div class="bottom">
-                <div class="container">
-                    <div class="footer-left">This independent TEDx event is operated under license from TED.</div>
-                    <div class="footer-right">
-                        <a href="https://www.facebook.com/TEDxRIT/?hc_ref=SEARCH&fref=nf" target="_blank" class="social fb"></a>
-                        <a href="https://www.instagram.com/tedxrit/" target="_blank" class="social insta"></a>
-                        <a href="https://twitter.com/TEDXRIT" target="_blank" class="social twitter"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</section><!-- cd-section -->
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-</body>
+		<!--The second section of the Home page. Houses information for the event and a link to the About page.-->
+		<div class="page-wrapper" id="sectionDown">
+			<div class="about-container">
+				<div class="about-left">
+					<div class="date">2.4.17</div>
+					<div class="title right-align">Ingle Auditorium</div>
+				</div>
+				<div class="about-right">
+					<div class="text">TEDxRIT started as an idea. It started as 7 people, wanting to make a difference and start a conversation on campus.<br><br>Fast forward to 7 months later, and we are now planning TEDxRIT to happen on February 4, 2017 with a group of 30 motivated students.</div>
+					<a href="about.html" class="button main">FULL STORY</a>
+				</div>
+			</div>
+		</div>
+
+		<!--The third section of the Home page. Houses the information and links to apply for a Speaker or Attendee role.-->
+		<div class="gray" id="sectionApp">
+			<div class="page-wrapper">
+				<div class="app-container">
+					<div class="app-left">
+						<div class="title">Become A Speaker</div>
+						<div class="text">Apply to be a speaker for TEDxRIT on Saturday, February 4th, 2017. Anyone is eligible to apply, including students, faculty, community members, and anyone else with an idea worth sharing. </div>
+						<a href="images/Speaker_Application.docx" class="button main">APPLY</a>
+					</div>
+					<div class="divider"></div>
+					<div class="app-right">
+						<div class="title">Attend The Event</div>
+						<div class="text">Apply to attend the TEDxRIT event! Only 100 applicants will be accepted, so be sure to fill out your application before it closes on January 9th.</div>
+						<div class="button main">APPLY</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--The fourth section of the Home page. Houses images and links to each of the sub-committees of TEDxRIT-->
+		<div class="page-wrapper">
+			<div class="title space">We Value Teamwork</div>
+			<div class="grid">
+				<div class="row">
+					<div class="left">
+						<div class="img one">
+							<a href="team.html" class="hoverstate">TEDxRIT eBoard</a>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img two">
+							<a href="team.html" class="hoverstate">Curation Committee</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="left">
+						<div class="img three">
+							<a href="team.html" class="hoverstate">Marketing Committee</a>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img four">
+							<a href="team.html" class="hoverstate">Events Management Committee</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="left">
+						<div class="img five">
+							<a href="team.html" class="hoverstate">Events Production Committee</a>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img six">
+							<a href="team.html" class="hoverstate">Sponsorship and Finance Committee</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--The fifth and final section of the Home page. Houses links to email the club as well as links to social media accounts.-->
+		<div class="footer" id="sectionCont">
+			<div class="top">
+				<div class="footer-title">Questions? Contact Us</div>
+				<a href="mailto:theodorejohnston@tedxrit.com" class="footer-button">EMAIL</a>
+			</div>
+
+			<div class="bottom">
+				<div class="container">
+					<div class="footer-left">This independent TEDx event is operated under license from TED.</div>
+					<div class="footer-right">
+						<a href="https://www.facebook.com/TEDxRIT/?hc_ref=SEARCH&fref=nf" target="_blank" class="social fb"></a>
+						<a href="https://www.instagram.com/tedxrit/" target="_blank" class="social insta"></a>
+						<a href="https://twitter.com/TEDXRIT" target="_blank" class="social twitter"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
