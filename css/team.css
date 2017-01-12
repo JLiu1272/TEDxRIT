@@ -1,0 +1,163 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/about-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 500px;
+    background-color: #181818;
+    opacity: .25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.nav {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.logo {
+    background-image: url(../images/ted-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 50px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px rgba(255,255,255,0) solid;
+    transition: all .2s;
+    padding-bottom: 5px;
+    margin: 0px 15px;
+}
+
+.link:hover {
+    border-bottom: 1px rgba(255,255,255,1) solid;
+}
+
+.hero-title {
+    padding-top: 150px;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight:  700;
+}
+
+.page-wrapper {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.row {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.eboard {
+    background-image: url(../images/eboard.png);
+}
+
+.one {
+    background-image: url(../images/curation-committee.png);
+}
+
+.two {
+    background-image: url(../images/marketing-committee.png);
+}
+
+.three {
+    background-image: url(../images/events-management.png);
+}
+
+.four {
+    background-image: url(../images/events-production.png);
+}
+
+.five {
+    background-image: url(../images/finance-committee.png);
+}
+
+.six {
+    background-image: url(../images/last-image.JPG);
+}
+
+.content-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.title {
+    font-size: 36px;
+    color: #2e2e2e;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.text {
+    width: 560px;
+    font-size: 14px;
+    font-family: 'helvetica';
+    color: #2e2e2e;
+    opacity: .75;
+    line-height: 26px;
+}

@@ -1,0 +1,285 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/landing-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: #181818;
+    opacity: .25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.hero-center {
+    position: absolute;
+    top: calc(50vh - 250px);
+    left: calc(50% - 220px);
+}
+
+.nav {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.logo {
+    background-image: url(../images/ted-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 50px;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 1px rgba(255,255,255,0) solid;
+    transition: all .2s;
+    padding-bottom: 5px;
+    margin: 0px 15px;
+}
+
+.link:hover {
+    border-bottom: 1px rgba(255,255,255,1) solid;
+}
+
+.hero-title {
+    padding-top: 150px;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight:  700;
+}
+
+.subtitle {
+    padding: 15px 0 25px 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.button {
+    width: 160px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #e52605;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    display: block;
+    font-family: 'helvetica';
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #ff2b06;
+}
+
+
+.page-wrapper {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.date {
+    font-size: 72px;
+    color: #ff2b06;
+    text-align: right;
+    font-weight: 700;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.about-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 75px 0;
+}
+
+.about-right {
+    width: 420px;
+}
+
+.about-left {
+    margin-right: 75px;
+}
+
+.main {
+    background-color: rgba(255,255,255,0);
+    border: 2px #ff2b06 solid;
+    color: #ff2b06;
+    margin: 0;
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+
+.main:hover {
+    color: #fff;
+}
+
+.app-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0;
+}
+
+.gray {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.app-left,
+.app-right {
+    width: 420px;
+}
+
+.divider {
+    width: 1px;
+    height: 300px;
+    background-color: #cecece;
+}
+
+.space {
+    padding-top: 75px;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.row {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.left,
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    color: #2e2e2e;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.text {
+    font-size: 14px;
+    font-family: 'helvetica';
+    color: #2e2e2e;
+    opacity: .75;
+    line-height: 26px;
+}
+
+.hoverstate {
+    width: 100%;
+    height: 100%;
+    line-height: 350px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    opacity: 0;
+    background-color: #2e2e2e;
+    transition: all .2s;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img:hover .hoverstate {
+    opacity: .9;
+}
+
+.one {
+    background-image: url(../images/eboard.png);
+}
+
+.two {
+    background-image: url(../images/curation-committee.png);
+}
+
+.three {
+    background-image: url(../images/marketing-committee.png);
+}
+
+.four {
+    background-image: url(../images/events-management.png);
+}
+
+.five {
+    background-image: url(../images/events-production.png);
+}
+
+.six {
+    background-image: url(../images/finance-committee.png);
+}
+
+.seven {
+    background-image: url(../images/last-image.JPG);
+}
+

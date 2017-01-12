@@ -1,0 +1,94 @@
+.footer {
+    width: 100%;
+}
+
+.footer .top {
+    height: 260px;
+    background-color: #2e2e2e;
+}
+
+.footer .bottom {
+    height: 80px;
+    background-color: #1d1d1d;
+}
+
+.footer-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 75px 0px 25px 0px;
+}
+
+.footer-button {
+    width: 140px;
+    height: 40px;
+    margin: 0 auto;
+    border: 2px #ff2b06 solid;
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+    font-family: 'helvetica';
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.footer-button:hover {
+    background-color: #ff2b06;
+    
+}
+
+.container {
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.footer-left {
+    color: #fff;
+    font-family: 'helvetica';
+    font-size: 12px;
+    opacity: .75;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 25px;
+    opacity: .5;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+.fb {
+    background-image: url(../images/fb.png);
+}
+
+.insta {
+    background-image: url(../images/insta.png);
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);
+}
