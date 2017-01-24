@@ -80,6 +80,15 @@ body {
     font-weight:  700;
 }
 
+.countdown-title {
+    padding-top: 200px;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight:  700;
+}
+
 .subtitle {
     padding: 15px 0 25px 0;
     font-size: 24px;
@@ -269,7 +278,7 @@ body {
 }
 
 .speaker:hover {
-    
+
 }
 
 .img:hover .hoverstate {
@@ -324,4 +333,3 @@ body {
 .fifth {
     background-image: url(../images/five.jpg);
 }
-

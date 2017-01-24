@@ -21,6 +21,27 @@
 				});
 			});
 		</script>
+
+		<script>
+			var eventDate = new Date(2017, 1, 4, 12, 0, 0, 0).getTime();
+
+			setInterval(function() {
+				var curTime = new Date().getTime();
+				var timeLeft = eventDate - curTime;
+
+				var dCon = 1000*60*60*24;
+				var hCon = 1000*60*60;
+				var mCon = 1000*60;
+				var sCon = 1000;
+
+				var days = Math.floor(timeLeft/dCon);
+				var hours = Math.floor((timeLeft % dCon) / hCon);
+				var minutes = Math.floor((timeLeft % hCon) / mCon);
+				var seconds = Math.floor((timeLeft % mCon) / sCon);
+
+				document.getElementById("countdown").innerHTML = days + " days " + hours + " hours " + minutes + " minutes " + seconds + " seconds";
+			}, 1000);
+		</script>
 	</head>
 
 	<body>
@@ -38,6 +59,7 @@
 						<a href="#sectionCont" class="link">CONTACT</a>
 					</div>
 				</div>
+				<div class="countdown-title" id="countdown"></div>
 				<div class="hero-center">
 					<div class="hero-title">Turning Point</div>
 					<div class="subtitle">A TEDxRIT Experience</div>
@@ -61,8 +83,8 @@
 		</div>
 
 		<!--The third section of the Home page. Houses the information and links to apply for a Speaker or Attendee role.-->
-        
-        
+
+
 		<div class="gray" id="sectionApp">
 			<div class="page-wrapper">
                 <div class="title space">Speakers</div>
@@ -75,8 +97,8 @@
                 </div>
 			</div>
 		</div>
-        
-        
+
+
 		<!--The fourth section of the Home page. Houses images and links to each of the sub-committees of TEDxRIT-->
 		<div class="page-wrapper">
 			<div class="title space">We Value Teamwork</div>
