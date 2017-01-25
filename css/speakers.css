@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.clicked {
+    overflow: hidden;
+}
+
 .hero {
     width: 100%;
     height: 500px;
@@ -170,4 +174,65 @@ body {
 
 .button:hover {
     opacity: 1;
+}
+
+/* CSS for Pop-up function in speaker page */
+.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5 {
+  height:auto;
+  width:80%;
+  left: 10%;
+  top: 3%;
+  background:#fff;
+  position:fixed;
+  z-index:6;
+  border-radius:5px;
+  box-shadow:0 0 20px #000;
+    overflow: scroll;
+    height: 700px;
+}
+
+
+
+span {
+  border-radius:0 0 30px 30px;
+  margin-left:90%;
+  background:#000;
+  color:#fff;
+  font-size:20px;
+  height:10px;
+  padding:0 5px;
+  cursor:pointer;
+}
+.pop-up-text {
+  box-sizing:border-box;
+  padding:20px;    
+}
+.pop-up-text h1{
+  font-size:2em;
+  margin-bottom:20px;
+  width: 100%;
+    text-align: center;
+}
+.pop-up-text p{
+  font-size:1em;
+  margin-bottom:10px;
+  width: 70%;    
+  opacity: .75;    
+}
+.pop-up-text a {
+  color:#FF3D3D;
+  margin-bottom:10px;
+}
+.pop-up-text img {
+  max-height:400px;
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.pop-up-text .flex-container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
