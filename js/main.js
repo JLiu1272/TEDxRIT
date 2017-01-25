@@ -7,20 +7,3 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-88789851-1', 'auto');
 ga('send', 'pageview');
 
-
-/* Pop-up functionality */
-
-$('.pop-up').hide(0);
-
-$('.first').click(function(){
-	$('.pop-up').show();
-  //$('.pop-up-container').show(0);
-  //$('.pop-up').fadeIn(300);
-  //$('.first').hide(0);
-});
-$('.pop-up span').click(function() {
-  $('.pop-up').hide();
-  //$('.speaker').show(0);
-});
-
-/* End speaker pop up functionality */
