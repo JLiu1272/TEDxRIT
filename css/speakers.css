@@ -164,16 +164,22 @@ body {
 }
 
 .button {
-    font-size: 16px;
-    opacity: .75;
-    font-weight: 700;
+    width: 160px;
+    height: 45px;
+    background-color: #e52605;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    display: block;
+    font-family: 'helvetica';
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;
     transition: all .2s;
     cursor: pointer;
-    width: 100px;
 }
 
 .button:hover {
-    opacity: 1;
+    background-color: #ff2b06;
 }
 
 /* CSS for Pop-up function in speaker page */
@@ -205,7 +211,7 @@ span {
 }
 .pop-up-text {
   box-sizing:border-box;
-  padding:20px;    
+  padding:20px;
 }
 .pop-up-text h1{
   font-size:2em;
@@ -216,8 +222,8 @@ span {
 .pop-up-text p{
   font-size:1em;
   margin-bottom:10px;
-  width: 70%;    
-  opacity: .75;    
+  width: 70%;
+  opacity: .75;
 }
 .pop-up-text a {
   color:#FF3D3D;
