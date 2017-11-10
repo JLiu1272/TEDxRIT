@@ -5,6 +5,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.clicked {
+    overflow: hidden !important;
+}
+
 .hero {
     width: 100%;
     height: 100vh;
@@ -35,8 +39,8 @@ body {
 
 .hero-center {
     position: absolute;
-    top: calc(50vh - 250px);
-    left: calc(50% - 220px);
+    top: calc(50vh - 120px);
+    left: calc(50% - 330px);
 }
 
 .nav {
@@ -72,7 +76,6 @@ body {
 }
 
 .hero-title {
-    padding-top: 150px;
     color: #fff;
     font-size: 72px;
     text-align: center;
@@ -81,12 +84,12 @@ body {
 }
 
 .countdown-title {
-    padding-top: 200px;
     color: #fff;
-    font-size: 60px;
+    font-size: 36px;
     text-align: center;
     margin: 0 auto;
     font-weight:  700;
+    padding: 15px 0;
 }
 
 .subtitle {
@@ -324,6 +327,8 @@ body {
   z-index:6;
   border-radius:5px;
   box-shadow:0 0 20px #000;
+    overflow: scroll;
+    height: 700px;
 }
 
 
@@ -340,15 +345,19 @@ span {
 }
 .pop-up-text {
   box-sizing:border-box;
-  padding:20px;  
+  padding:20px;    
 }
 .pop-up-text h1{
   font-size:2em;
   margin-bottom:20px;
+  width: 100%;
+    text-align: center;
 }
 .pop-up-text p{
   font-size:1em;
   margin-bottom:10px;
+  width: 70%;    
+  opacity: .75;    
 }
 .pop-up-text a {
   color:#FF3D3D;
@@ -358,6 +367,14 @@ span {
   max-height:400px;
   text-align:center;
   margin-bottom:10px;
+}
+
+.pop-up-text .flex-container {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* End of CSS for pop up */
