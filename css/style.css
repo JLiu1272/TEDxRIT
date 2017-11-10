@@ -17,6 +17,19 @@ body {
     background-position: center;
 }
 
+.speakerApp {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: center
+}
+
+.speakerApp-center {
+    position: absolute;
+    bottom: 23%;
+    left: 37%;
+}
+
 .overlay {
     width: 100%;
     height: 100vh;
@@ -345,7 +358,7 @@ span {
 }
 .pop-up-text {
   box-sizing:border-box;
-  padding:20px;    
+  padding:20px;
 }
 .pop-up-text h1{
   font-size:2em;
@@ -356,8 +369,8 @@ span {
 .pop-up-text p{
   font-size:1em;
   margin-bottom:10px;
-  width: 70%;    
-  opacity: .75;    
+  width: 70%;
+  opacity: .75;
 }
 .pop-up-text a {
   color:#FF3D3D;
