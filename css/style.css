@@ -12,7 +12,7 @@ body {
 .hero {
     width: 100%;
     height: 100vh;
-    background-image: url(../images/landing-bg.png);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -51,9 +51,9 @@ body {
 }
 
 .hero-center {
-    position: absolute;
-    top: calc(50vh - 120px);
-    left: calc(50% - 330px);
+    padding-top: calc(50vh - 180px);
+    /*left: calc(50% - 330px);*/
+    margin: 0 auto;
 }
 
 .nav {
@@ -278,13 +278,22 @@ body {
 
 .speaker-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+.speaker-grid:after {
+    content: "";
+    flex: auto;
 }
 
 .speaker {
+    display: flex;
+    flex-basis: 25%;
     width: 20%;
     height: 300px;
     background-position: center;
@@ -302,31 +311,31 @@ body {
 }
 
 .one {
-    background-image: url(../images/eboard.png);
+    background-image: url(../images/gallery/gallery1.jpg);
 }
 
 .two {
-    background-image: url(../images/curation-committee.png);
+    background-image: url(../images/gallery/gallery2.jpg);
 }
 
 .three {
-    background-image: url(../images/marketing-committee.png);
+    background-image: url(../images/gallery/gallery3.jpg);
 }
 
 .four {
-    background-image: url(../images/events-management.png);
+    background-image: url(../images/gallery/gallery4.jpg);
 }
 
 .five {
-    background-image: url(../images/events-production.png);
+    background-image: url(../images/gallery/gallery5.jpg);
 }
 
 .six {
-    background-image: url(../images/finance-committee.png);
+    background-image: url(../images/gallery/gallery6.jpg);
 }
 
 .seven {
-    background-image: url(../images/last-image.JPG);
+    background-image: url(../images/gallery/gallery7.jpg);
 }
 
 /* CSS for Pop-up function in speaker page */
@@ -392,23 +401,26 @@ span {
 
 /* End of CSS for pop up */
 
-.first {
-    background-image: url(../images/one.png);
+.brandon-dcruz {
+    background-image: url(../images/speakers/BrandonDcruz.jpg);
 }
 
-.second {
-    background-image: url(../images/two.png);
+.ly-marlow {
+    background-image: url(../images/speakers/LYMarlow.jpg);
 }
 
-.third {
-    background-image: url(../images/three.png);
+.michael-geffert {
+    background-image: url(../images/speakers/MichaelGeffert.jpg);
 }
 
-.fourth {
-    background-image: url(../images/four.png);
-    background-position: right;
+.shima-ghaheri {
+    background-image: url(../images/speakers/ShimaGhaheri.JPG);
 }
 
-.fifth {
-    background-image: url(../images/five.jpg);
+.skip-flanagan {
+    background-image: url(../images/speakers/SkipFlanagan.jpg);
+}
+
+.suhail-prasathong {
+    background-image: url(../images/speakers/SuhailPrasathong.png);
 }
