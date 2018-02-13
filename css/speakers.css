@@ -119,23 +119,27 @@ body {
 }
 
 .one {
-    background-image: url(../images/one.png);
+    background-image: url(../images/speakers/BrandonDcruz.jpg);
 }
 
 .two {
-    background-image: url(../images/two.png);
+    background-image: url(../images/speakers/LYMarlow.jpg);
 }
 
 .three {
-    background-image: url(../images/three.png);
+    background-image: url(../images/speakers/MichaelGeffert.jpg);
 }
 
 .four {
-    background-image: url(../images/four.png);
+    background-image: url(../images/speakers/ShimaGhaheri.JPG);
 }
 
 .five {
-    background-image: url(../images/five.jpg);
+    background-image: url(../images/speakers/SkipFlanagan.jpg);
+}
+
+.six {
+    background-image: url(../images/speakers/SuhailPrasathong.png)
 }
 
 .content-container {
@@ -183,7 +187,7 @@ body {
 }
 
 /* CSS for Pop-up function in speaker page */
-.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5 {
+.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5, .pop-up-6 {
   height:auto;
   width:80%;
   left: 10%;
