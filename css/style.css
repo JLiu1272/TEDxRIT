@@ -427,5 +427,9 @@ span {
 }
 
 .gary-stine {
-    background-image: url(http://via.placeholder.com/350x450);
+    background-image: url(../images/speakers/garystine.png);
+}
+
+.flex-container h2 {
+    text-align: center;
 }

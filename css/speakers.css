@@ -143,7 +143,8 @@ body {
 }
 
 .seven {
-    background-image: url(http://via.placeholder.com/350x450);
+    background-image: url(../images/speakers/garystine.png);
+    background-position: center center;
 }
 
 .content-container {
@@ -251,6 +252,6 @@ span {
     flex-wrap: wrap;
 }
 
-.img-2, .img-6 {
+.img-2, .img-6, .img-7 {
     padding: 0 100px;
 }
