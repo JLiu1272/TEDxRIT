@@ -139,7 +139,11 @@ body {
 }
 
 .six {
-    background-image: url(../images/speakers/SuhailPrasathong.png)
+    background-image: url(../images/speakers/SuhailPrasathong.png);
+}
+
+.seven {
+    background-image: url(http://via.placeholder.com/350x450);
 }
 
 .content-container {
@@ -187,7 +191,7 @@ body {
 }
 
 /* CSS for Pop-up function in speaker page */
-.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5, .pop-up-6 {
+.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5, .pop-up-6, .pop-up-7 {
   height:auto;
   width:80%;
   left: 10%;
@@ -245,4 +249,8 @@ span {
     height: 90%;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.img-2, .img-6 {
+    padding: 0 100px;
 }

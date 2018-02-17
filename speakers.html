@@ -20,7 +20,7 @@
 					return false;
 				});
 
-				var speakers = ['.first', '.second', '.third', '.fourth', '.fifth', '.sixth'];
+				var speakers = ['.first', '.second', '.third', '.fourth', '.fifth', '.sixth', '.seventh'];
 				for(var i=0; i<=speakers.length; i++){
 					var num = 0+i;
 					var popup = '.pop-up-' + num;
@@ -96,6 +96,17 @@
                 $('body').removeClass('clicked');
               });
 
+              $('.seventh').click(function(){
+                $('.pop-up-7').show();
+                $('.wrapper').css('opacity', '0.2');
+                $('body').addClass('clicked');
+              });
+              $(".pop-up-7 span").click(function() {
+                $(".pop-up-7").hide();
+                $('.wrapper').css('opacity', '1.0');
+                $('body').removeClass('clicked');
+              });
+
 			});
 		</script>
 	</head>
@@ -167,8 +178,21 @@
 			<div class="pop-up-text">
 				<div class="flex-container">
 					<h1>Suhail Prasathong</h1>
-					<img src="images/speakers/SuhailPrasathong.png" alt="image five" />
+					<img class="img-6" src="images/speakers/SuhailPrasathong.png" alt="image five" />
 					<p>Suhail Prasathong was born and raised in Bangkok, Thailand. He moved to the United States at the age of 18 in search of greater things such as higher education and opportunities. By age 18 he had traveled to more than 18 countries which exposed him to a wealth of experiences at an early age. His journey kicked off at Monroe Community College in Rochester, NY where he pursued an Associate in Computer Engineering. In his time at MCC, he served as President of the Student Government where he had the opportunity to engage with students from all walks of life. That experience changed his entire worldview. Suhail went on to the Rochester Institute of Technology to pursue a Bachelor's Degree in Computer Engineering and continues to speak on issues he cares about at national conferences, local community events and beyond.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Pop Up Details # 7-->
+		<div class="pop-up-7">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Gary Stine</h1>
+					<img src="http://via.placeholder.com/350x450" alt="image seven" />
+					<h1>Title</h1>
+					<h2>Subtitle</h2>
 				</div>
 			</div>
 		</div>
@@ -188,7 +212,7 @@
 						<a href="#sectionCont" class="link">CONTACT</a>
 					</div>
 				</div>
-				<div class="hero-title">Speakers at TEDxRIT</div>
+				<div class="hero-title">Speakers</div>
 			</div>
 		</div>
 
@@ -270,6 +294,19 @@
 							<div class="text">Suhail Prasathong was born and raised in Bangkok, Thailand. He moved to the United States at the age of 18 in search of greater things such as higher education and opportunities.</div>
 							<div class="button sixth">READ MORE</div>
 						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="left">
+						<div class="content-container">
+							<div class="title">Gary Stine</div>
+							<div class="text">Quick bio</div>
+							<div class="button seventh">READ MORE</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img seven"></div>
 					</div>
 				</div>
 

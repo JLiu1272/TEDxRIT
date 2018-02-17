@@ -211,6 +211,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
 }
@@ -339,7 +340,7 @@ body {
 }
 
 /* CSS for Pop-up function in speaker page */
-.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5, .pop-up-6 {
+.pop-up-1, .pop-up-2, .pop-up-3, .pop-up-4, .pop-up-5, .pop-up-6, .pop-up-7 {
   height:auto;
   width:80%;
   left: 10%;
@@ -423,4 +424,8 @@ span {
 
 .suhail-prasathong {
     background-image: url(../images/speakers/SuhailPrasathong.png);
+}
+
+.gary-stine {
+    background-image: url(http://via.placeholder.com/350x450);
 }
