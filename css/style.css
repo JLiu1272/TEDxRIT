@@ -368,11 +368,7 @@ span {
 }
 .pop-up-text {
   box-sizing:border-box;
-<<<<<<< HEAD
-  padding:20px;    
-=======
   padding:20px;
->>>>>>> bc4d84dab395acab462c8deb258aa6bbdab1d3df
 }
 .pop-up-text h1{
   font-size:2em;
@@ -383,13 +379,8 @@ span {
 .pop-up-text p{
   font-size:1em;
   margin-bottom:10px;
-<<<<<<< HEAD
-  width: 70%;    
-  opacity: .75;    
-=======
   width: 70%;
   opacity: .75;
->>>>>>> bc4d84dab395acab462c8deb258aa6bbdab1d3df
 }
 .pop-up-text a {
   color:#FF3D3D;
