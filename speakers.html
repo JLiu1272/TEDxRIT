@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/speakers.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+		<link rel='shortcut icon' type='images/favicon' href="images/favicon.ico" />
+		<title>TEDxRIT | Speakers</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			$(function() {
+				$('a[href*=#]').click(function() {
+					var target = $(this.hash);
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				});
+
+				var speakers = ['.first', '.second', '.third', '.fourth', '.fifth'];
+				for(var i=0; i<=speakers.length; i++){
+					var num = 0+i;
+					var popup = '.pop-up-' + num;
+					$(popup).hide();
+					/*$(speakers[i]).click(function(){
+				        $(popup).fadeIn(300);
+				        $('.wrapper').css('opacity', '0.2');
+				    });
+					$(popup + ' span').click(function() {
+					  $(popup).hide();
+					  $('.wrapper').css('opacity', '1.0');
+					});*/
+				}
+				$('.first').click(function(){
+			        $('.pop-up-1').show();
+			        $('.wrapper').css('opacity', '0.2');
+                    $('body').addClass('clicked');
+			    });
+				$(".pop-up-1 span").click(function() {
+				  $(".pop-up-1").hide();
+				  $('.wrapper').css('opacity', '1.0');
+                    $('body').removeClass('clicked');
+				});
+				$('.second').click(function(){
+			        $('.pop-up-2').show();
+			        $('.wrapper').css('opacity', '0.2');
+                    $('body').addClass('clicked');
+			    });
+				$(".pop-up-2 span").click(function() {
+				  $(".pop-up-2").hide();
+				  $('.wrapper').css('opacity', '1.0');
+                    $('body').removeClass('clicked');
+				});
+				$('.third').click(function(){
+			        $('.pop-up-3').show();
+			        $('.wrapper').css('opacity', '0.2');
+                    $('body').addClass('clicked');
+			    });
+				$(".pop-up-3 span").click(function() {
+				  $(".pop-up-3").hide();
+				  $('.wrapper').css('opacity', '1.0');
+                    $('body').removeClass('clicked');
+				});
+				$('.fourth').click(function(){
+			        $('.pop-up-4').show();
+			        $('.wrapper').css('opacity', '0.2');
+                    $('body').addClass('clicked');
+			    });
+				$(".pop-up-4 span").click(function() {
+				  $(".pop-up-4").hide();
+				  $('.wrapper').css('opacity', '1.0');
+                    $('body').removeClass('clicked');
+				});
+				$('.fifth').click(function(){
+			        $('.pop-up-5').show();
+			        $('.wrapper').css('opacity', '0.2');
+                    $('body').addClass('clicked');
+			    });
+                $(".pop-up-5 span").click(function() {
+				  $(".pop-up-5").hide();
+				  $('.wrapper').css('opacity', '1.0');
+                    $('body').removeClass('clicked');
+				});
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<!--Pop Up Details # 1-->
+		<div class="pop-up-1">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Manuela Campanelli: The Joy in Garvitational Waves</h1>
+					<img class="img-1" src="images/one.png"/>
+                    <p>Dr. Manuela Campanelli is a Professor in the School of Mathematical Sciences, and a Program Faculty in Astrophysical Sciences and Technology in the School of Physics and Astronomy. She is also the founding Director of the Center for Computational Relativity and Gravitation. Campanelli was the recipient of the Marie Curie Fellowship (1998), the American Physical Society (APS) Fellowship (2009), and the RIT Truestee Scholarship Award (2014). She was the Chair of the Topical Group in Gravitation of the APS in 2013.</p>
+                    <br/>
+                    <p>Dr. Campanelli has an extensive research experience on Einstein’s theory of General Relativity, astrophysics of black holes and gravitational waves. She is known for groundbreaking work on numerical simulations of binary
+                    black hole space times and for explorations of physical effects such as “super kicks” and spin- driven orbital dynamics.</p>
+                    <br/>
+                    <p>Subject: Manuela Campanelli will be talking about how Einstein’s theory of general relativity describes the effect of gravitation on the shape of space and the flow of time. She will describe her experience of being a leader in the discover or gravitational waves. She will share the joy of experiencing her passion in dedicating her time to this amazing success.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Pop Up Details # 2-->
+		<div class="pop-up-2">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Myles Drake: The Simplicity of Empathy</h1>
+					<img class="img-2" src="images/two.png"/>
+                    <p>Myles Drake was born and raised in Grimsby, Ontario. Highly influenced by his uncles at a young age who were mechanics and auto workers, Myles began to tinker with dirt bikes. By age 15 he was full blown into competitive motocross racing, a sport which tends to wreak havocon the body. After finding a local yoga class, he soon recovered his degenerating spinal discs and became qualified to instruct by travelling to India
+                    and obtaining certification. Motocross Racing inspired him to obtain a Bachelor's Degree in Automotive Engineering Technology from McMaster University, which he received in 2014. From there he moved to the Green Mountain State in Vermont to work for a Factory Sponsored Subaru Rally Car Race Team. It was a childhood dream come true. After 2 years living in Vermont he received an opportunity to travel across Canada sharing a message about empathy to youth and has since spoken to over 20,000 students in 55 high schools through the non-profit called Live Different.</p>
+                    <br/><p>
+                    Subject: The focus of the talk will be empathy; how it’s a driving force in furthering relationships, a skill, and how it can be improved over time. Personal anecdotes
+                    will be included to enhance the idea worth spreading</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Pop Up Details # 3-->
+		<div class="pop-up-3">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Hayley Johnson: Uplifting The Self</h1>
+                    <img class="img-3" src="images/three.png"/>
+                    <p>Hayley is an M.S. candidate at the University of Rochester, and will complete her degree in Higher Education Student Affairs this spring. There, she works as a graduate admissions assistant at the Warner School of Education. At RIT, she works as a graduate resident advisor for the Global Village apartment complex. Additionally, her work related to issues of body positivity and diversity has afforded her opportunities to attend the Clinton Global Initiative University conference twice within the past few years, and now serves as the University of Rochester's CGIU representative.</p>
+                    <br/>
+                    <p>Subject: Hayley’s focus will be discussing the fact that although body image issues are far less taboo than they were previously, women are still marginalized, often to the point where their grievances are avoided all together. She will highlight fighting against self-hatred, as well as uplifting the self. Her talk will further connect with the rest of the audience by discussing affects in STEM fields!</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Pop Up Details # 4-->
+		<div class="pop-up-4">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Tom Rizzuto: Music is a Universal Language</h1>
+					<img src="images/four.png"/>
+					<p>Tom Rizzuto is a musician, writer, and educator from Long Island, New York. He currently teaches Music History, World Music, The History of Rock and Roll, American Music and several other courses at Molloy College. He also teaches guitar classes for the Nassau Community College Continuing Education Department. Mr. Rizzuto holds a Bachelor’s Degree in Music Education from Molloy College and a Master’s Degree in Musicology from CUNY The City College of New York. His writing has appeared in such publications as History Magazine and Discovery Magazine, as well as on The-
+                	Wagnerian.com. He is also a frequent contributor to CrazyTownBlog.com. Mr. Rizzuto has given lectures on a wide range of topics including “The
+                	Music of J.S. Bach,” and “Music in the 20th Century.” He was featured as part of a panel discussion on music in film at the Icon Festival and spoke on “Music and Controversy” for the Public Square 2.0 television series. Follow him on Twitter @TomRizzuto.</p>
+					<br/>
+					<p>Subject: Tom will speak about the historical and scientific reasons for why music has the power to tear us apart and how it can be used to bring us together. Why is it so hard for some people to enjoy new music? Why is it important to have an open mind? How can we understand and even learn to like music that we aren't used to? The answers to these questions are more complicated than they seem.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--Pop Up Details # 5-->
+        <div class="pop-up-5">
+			<span>x</span>
+			<div class="pop-up-text">
+				<div class="flex-container">
+					<h1>Pritam Poddar: Squatting, Our Ultimate Savior!</h1>
+					<img src="images/five.jpg"/>
+					<p>Pritam is in his second year of PhD at Rochester Institute of Technology, working at the recently established AMPrint Center. At the center, he works on developing processes for 3D printing carbon fibers. After getting his bachelors degree in Mechanical Engineering from his hometown of Kolkata, India, Pritam came to Rochester in 2012 for a master's degree in Industrial Engineering, and later continuing on to his PhD. Currently, he serves as the Vice President of Membership at Tiger Tales Toastmasters, a public speaking organization on campus. He thoroughly enjoys public speaking and believes learning that skill has been a turning point in his life. Pritam's life-long interest has been studying the human condition through friendship, love, and books!</p>
+					<br/>
+					<p>Subject: Pritam will be talking about the effect sitting has on our bodies. He dubs prolonged sitting as the "smoking of our generation". He will also speak on why and how unconventional ideas need to shared.</p>
+				</div>
+			</div>
+		</div>
+
+		<!--The first section of the Speakers page. Houses the main image and page title as well as the main site navigation.-->
+        <div class="wrapper">
+		<div class="hero">
+			<div class="overlay"></div>
+			<div class="hero-content">
+				<div class="nav">
+					<a href="index.html" class="logo"></a>
+					<div class="links">
+						<a href="about.html" class="link">ABOUT</a>
+                        <a href="speakers.html" class="link">SPEAKERS</a>
+						<a href="sponsor.html" class="link">SPONSORS</a>
+						<a href="team.html" class="link">TEAM</a>
+						<a href="#sectionCont" class="link">CONTACT</a>
+					</div>
+				</div>
+				<div class="hero-title">Speakers at TEDxRIT</div>
+			</div>
+		</div>
+
+		<!--The second section of the Speakers page. Houses images and descriptions of each of the Speakers that will be soeaking at TEDxRIT.-->
+		<div class="page-wrapper">
+			<div class="grid">
+				<div class="row">
+					<div class="left">
+						<div class="content-container">
+							<div class="title">Manuela Campanelli</div>
+							<div class="text">Dr. Manuela Campanelli is a Professor in the School of Mathematical Sciences, and a Program Faculty in Astrophysical Sciences and Technology in the School of Physics and Astronomy. She is also the founding Director of the Center for Computational Relativity and Gravitation.</div>
+                            <div class="button first">READ MORE</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img one"></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="left">
+						<div class="img two"></div>
+					</div>
+					<div class="right">
+						<div class="content-container">
+							<div class="title">Myles Drake</div>
+							<div class="text">Myles Drake was born and raised in Grimsby, Ontario. Highly influenced by his uncles at a young age who were mechanics and auto workers, Myles began to tinker with dirt bikes. By age 15 he was full blown into competitive motocross racing, a sport which tends to wreak havoc on the body.</div>
+                            <div class="button second">READ MORE</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="left">
+						<div class="content-container">
+							<div class="title">Hayley Johnson</div>
+							<div class="text">Hayley is an M.S. candidate at the University of Rochester, and will complete her degree in Higher Education Student Affairs this spring. There, she works as a graduate admissions assistant at the Warner School of Education. At RIT, she works as a graduate resident advisor for the Global Village apartment complex.</div>
+                            <div class="button third">READ MORE</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img three"></div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="left">
+						<div class="img four"></div>
+					</div>
+					<div class="right">
+						<div class="content-container">
+							<div class="title">Tom Rizzuto</div>
+							<div class="text">Tom Rizzuto is a musician, writer, and educator from Long Island, New York. He currently teaches Music History, World Music, The History of Rock and Roll, American Music and several other courses at Molloy College. He also teaches guitar classes for the Nassau Community College Continuing Education Department.</div>
+                            <div class="button fourth">READ MORE</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="left">
+						<div class="content-container">
+							<div class="title">Pritam Poddar</div>
+							<div class="text">Pritam is in his second year of PhD at Rochester Institute of Technology, working at the recently established AMPrint Center. At the center, he works on developing processes for 3D printing carbon fibers. He is also the Vice President of Membership at Tiger Tales Toastmasters, a public speaking organization on campus.</div>
+                            <div class="button fifth">READ MORE</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="img five"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--The third and final section of the Committees page. Houses links to email the club as well as links to social media accounts.-->
+		<div class="footer" id="sectionCont">
+			<div class="top">
+				<div class="footer-title">Questions? Contact Us</div>
+				<a href="mailto:theodorejohnston@tedxrit.com" class="footer-button">EMAIL</a>
+			</div>
+
+			<div class="bottom">
+				<div class="container">
+					<div class="footer-left">This independent TEDx event is operated under license from TED.</div>
+					<div class="footer-right">
+						<a href="https://www.facebook.com/TEDxRIT/?hc_ref=SEARCH&fref=nf" target="_blank" class="social fb"></a>
+						<a href="https://www.instagram.com/tedxrit/" target="_blank" class="social insta"></a>
+						<a href="https://twitter.com/TEDXRIT" target="_blank" class="social twitter"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+        </div>
+	</body>
+</html>
